@@ -1,3 +1,16 @@
+
+.vs/
+TwitchChatAnalyzer/Debug/
+TwitchChatAnalyzer/Debug-x64/
+
+qmake/
+
+x64/Debug/
+
+Libs/
+
+SharedLibs/
+
 # Prerequisites
 *.d
 

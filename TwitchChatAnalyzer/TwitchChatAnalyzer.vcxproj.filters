@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{1ee289e0-eae1-43bc-9a74-7a18b81dc39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\String">
+      <UniqueIdentifier>{ea1f2688-35fa-45a9-8f95-0ad222797e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Util">
+      <UniqueIdentifier>{b3c60179-bd52-4757-92ca-9e014802670c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Sqlite">
+      <UniqueIdentifier>{e2c331bb-c0c0-4fa1-a527-95ae5c8750b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Network">
+      <UniqueIdentifier>{e8e4b99c-e025-4057-89c2-3ea9d7495918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Network\Include">
+      <UniqueIdentifier>{a00b21bf-9053-4625-bf0d-662bd18d7af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\Logger">
+      <UniqueIdentifier>{c47c87cd-efa8-4e47-aea8-81fcf240c0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Module">
+      <UniqueIdentifier>{c1ab515c-5efa-4eac-aff6-b1f18fad5fde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="cTwitchChatAnalyzer.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="cTwitchChatAnalyzer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="cTwitchChatAnalyzer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="cTwitchChatAnalyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\String\SharedString.cpp">
+      <Filter>Libs\String</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\String\SharedXString.cpp">
+      <Filter>Libs\String</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Sqlite\SharedSQLite.cpp">
+      <Filter>Libs\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Sqlite\shell.c">
+      <Filter>Libs\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Sqlite\sqlite3.c">
+      <Filter>Libs\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Utils\SharedFile.cpp">
+      <Filter>Libs\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\SharedFileDownload.cpp">
+      <Filter>Libs\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\SharedNetwork.cpp">
+      <Filter>Libs\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\SecureSocket.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\Socket.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\TCPClient.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\TCPServer.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\TCPSSLClient.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Network\include\Socket\TCPSSLServer.cpp">
+      <Filter>Libs\Network\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedLibs\Logger\SharedLogger.cpp">
+      <Filter>Libs\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\moduleAnalysis.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\moduleIRC.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\moduleTwitchAPI.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Module\moduleMainDB.cpp">
+      <Filter>Module</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SharedLibs\Shared_Config.hpp">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Shared_Defs.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\SharedBase.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Singleton.h">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\String\SharedFormat.h">
+      <Filter>Libs\String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\String\SharedString.h">
+      <Filter>Libs\String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\String\SharedXString.h">
+      <Filter>Libs\String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Sqlite\SharedSQLite.h">
+      <Filter>Libs\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Sqlite\sqlite3.h">
+      <Filter>Libs\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Sqlite\sqlite3ext.h">
+      <Filter>Libs\Sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Utils\SharedFile.h">
+      <Filter>Libs\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\SharedFileDownload.h">
+      <Filter>Libs\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\SharedNetwork.h">
+      <Filter>Libs\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\SecureSocket.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\Socket.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\TCPClient.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\TCPServer.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\TCPSSLClient.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Network\include\Socket\TCPSSLServer.h">
+      <Filter>Libs\Network\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Logger\SharedLogger.h">
+      <Filter>Libs\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\moduleAnalysis.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\moduleIRC.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedLibs\Json\nlohmann\json.hpp">
+      <Filter>Libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\moduleTwitchAPI.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Module\moduleMainDB.h">
+      <Filter>Module</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿{
+	"Rev": "1",
+
+	"vo_ine": 
+	{
+		"Migration": 
+		{
+			"Rev": 2,
+			"Count": 1,
+			"1": "QUERY"
+		},
+
+		"Create": 
+		{
+			"Rev": 2,
+			"1": "CREATE TABLE TBL_CHAT( ChatDateTime datetime NOT NULL, userName TEXT NOT NULL, chatMsg TEXT NOT NULL, isAnalyze bool NOT NULL DEFAULT 0 );",
+			"2": "CREATE TABLE TBL_OPTION( policyName TEXT NOT NULL PRIMARY KEY, policyValue TEXT NOT NULL );"
+		}
+
+	},
+	
+	"woowakgood": 
+	{
+		"Migration": 
+		{
+			"Rev": 2,
+			"Count": 1,
+			"1": "QUERY"
+		},
+
+		"Create": 
+		{
+			"Rev": 2,
+			"1": "CREATE TABLE TBL_CHAT( ChatDateTime datetime NOT NULL, userName TEXT NOT NULL, chatMsg TEXT NOT NULL );",
+			"2": "CREATE TABLE TBL_OPTION( policyName TEXT NOT NULL PRIMARY KEY, policyValue TEXT NOT NULL );"
+		}
+
+	}	
+}
